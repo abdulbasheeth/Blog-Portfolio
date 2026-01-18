@@ -55,7 +55,7 @@ const experience = [
 
 const About = () => {
   return (
-    <div className="bg-[#F8F6F2] mt-15 px-5 md:px-20 lg:px-40">
+    <div className="bg-[#F8F6F2] px-5 md:px-20 lg:px-40">
       {/* Header */}
       <h1 className="text-center pt-10 text-4xl md:text-5xl text-[#437061] font-bold">About Me</h1>
       <h2 className="mt-6 text-center text-2xl md:text-3xl lg:text-4xl font-serif">Crafting Digital Experiences</h2>
@@ -63,8 +63,8 @@ const About = () => {
       {/* Intro */}
 
         <div className=" gap-3 border-[#437061] border p-15 md:px-35 rounded-2xl mt-20">
-          <div className=" mt-5 gap-5 flex ">
-          <FaAward className=" md:inline-block w-9 h-9 text-[#437061] bg-[#E6E8E3] gap-5 rounded p-2 text-3xl" />
+          <div className=" mt-5 gap-2 flex ">
+          <FaAward className=" md:inline-block w-9 h-9 text-[#437061] bg-[#E6E8E3] gap-3 rounded p-2 text-3xl" />
           <h1 className="text-center justify-center items-center text-3xl font-serif">Who I Am</h1>
          </div>
           <div className=" md:text-left text-gray-700 md:w-full justify-center items-center">
